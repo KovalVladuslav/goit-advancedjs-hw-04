@@ -67,6 +67,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.64px;
   font-family: Montserrat, sans-serif;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -78,6 +79,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 32px;
 }
 
 .photo-card {
@@ -157,4 +159,9 @@ ul {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.load-more {
+  margin: 0 auto;
+  display: none;
 }
